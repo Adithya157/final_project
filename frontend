@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>DREAM DRAPE</title>
+</head>
+<body>
+    <ul>
+        <li><a href="page1.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#help">Help</a></li>
+    </ul>
+    <main>
+        <div class="container">
+            <p><b><h1>DREAM DRAPE - THE STYLE SCULPTOR </h1></b></p>
+            <p>Give your ideas a fashion touch.</p>
+            <button id="btn" onclick="loadNewPage()">GET STARTED!!!</button>
+            <script>
+                function loadNewPage() {
+                    // Replace 'page2.html' with the actual URL of the new page
+                    window.location.href = 'page2.html';
+                }
+            </script>
+        </div>
+    </main>
+</body>
+</html>
